@@ -6,11 +6,12 @@
 //  Copyright (c) 2014年 Duzexu. All rights reserved.
 //
 /***************************************************************
+ 使用方法：
     1.添加libz动态链接库
     2.把bundle文件拖入工程，不选择copy
     
 ****************************************************************/
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 
 /**
  *  常用define
@@ -21,10 +22,6 @@
  *  进度提示
  */
 #import <ADFramework/SVProgressHUD.h>
-/**
- *  UIView常用方法
- */
-#import <ADFramework/UIView+Utils.h>
 /**
  *  加载gif图片
  *  YLImageView* imageView = [[YLImageView alloc] initWithFrame:CGRectMake(0, 160, 320, 240)];
@@ -38,20 +35,14 @@
 #import <ADFramework/MSKeyboardScrollView.h>
 /**
  *  XML解析
+ *  NSError *err = nil;
  */
 #import <ADFramework/XMLReader.h>
-/**
- *  更详细的类描述
- */
-#import <ADFramework/NSObject+AutoDescription.h>
+#import <ADFramework/GXMLNode.h>
 /**
  *  给所有类添加NSCodeing支持
  */
 #import <ADFramework/AutoCoding.h>
-/**
- *  计算Label的高度
- */
-#import <ADFramework/UILabel+ContentSize.h>
 /**
  *  自动移除观察者
  */
@@ -83,12 +74,31 @@
  */
 #import <ADFramework/CRToast.h>
 /**
- *  NSDate的实用方法
- */
-#import <ADFramework/NSDate+Exts.h>
-/**
  *  自动解析模型类别和Json输入结构
  */
 #import <ADFramework/JSONModelLib.h>
 
+/********************* 常用Category ***********************/
+/**
+ *  UIView常用方法
+ */
+#import <ADFramework/UIView+Utils.h>
+/**
+ *  更详细的类描述
+ */
+#import <ADFramework/NSObject+AutoDescription.h>
+/**
+ *  计算Label的高度
+ */
+#import <ADFramework/UILabel+ContentSize.h>
+/**
+ *  NSDate的实用方法
+ */
+#import <ADFramework/NSDate+Exts.h>
+/**
+ *  UIActionView 和 UIAlertView 的实用方法
+ */
+#import <ADFramework/UIAlertView+MKBlockAdditions.h>
+#import <ADFramework/UIActionSheet+MKBlockAdditions.h>
+#import <ADFramework/NSObject+MKBlockAdditions.h>
 
