@@ -118,5 +118,17 @@
  *  NSString的实用方法
  */
 #import <ADFramework/NSStringAdditions.h>
+/**
+ *  NSData的实用方法
+ *    [NSData getDataFromURL:[NSURL URLWithString:@"http://www.baidu.com"]
+ *                   toBlock:^(NSData *data, BOOL *retry) {
+ *        if (data == nil) {
+ *        *retry = YES;
+ *        return;
+ *       }
+ *       //Do something。。。
+ *    }];
+ */
+#import <ADFramework/NSData+AsyncCacher.h>
 
 

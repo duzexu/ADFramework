@@ -100,6 +100,8 @@
 		08AC028D192EF5E3004BA73E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0287192EF5E3004BA73E /* UIView+Utils.m */; };
 		30DAD1741956D11F00934E4B /* LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1721956D11F00934E4B /* LimitLength.m */; };
 		30DAD1751956D11F00934E4B /* LimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1731956D11F00934E4B /* LimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30DAD1BC195730DD00934E4B /* NSData+AsyncCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */; };
+		30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,6 +201,8 @@
 		08AC0287192EF5E3004BA73E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
 		30DAD1721956D11F00934E4B /* LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitLength.m; sourceTree = "<group>"; };
 		30DAD1731956D11F00934E4B /* LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitLength.h; sourceTree = "<group>"; };
+		30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AsyncCacher.m"; sourceTree = "<group>"; };
+		30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AsyncCacher.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +460,8 @@
 				0802E8051941B056007F7FA9 /* NSStringAdditions.m */,
 				30DAD1731956D11F00934E4B /* LimitLength.h */,
 				30DAD1721956D11F00934E4B /* LimitLength.m */,
+				30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */,
+				30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -493,6 +499,7 @@
 				08534BB218F69E6D0014D4C3 /* NSNotificationCenter+SFObservers.h in Headers */,
 				08534BB618F69E6D0014D4C3 /* NSObject+SFExecuteOnDealloc.h in Headers */,
 				08534BB418F69E6D0014D4C3 /* NSObject+SFObservers.h in Headers */,
+				30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */,
 				081E0CA618F7C92C009C358E /* ASIHTTPRequestConfig.h in Headers */,
 				081E0CA018F7C92C009C358E /* ASIDownloadCache.h in Headers */,
 				08AC028A192EF5E3004BA73E /* NSObject+AutoDescription.h in Headers */,
@@ -628,6 +635,7 @@
 				30DAD1741956D11F00934E4B /* LimitLength.m in Sources */,
 				081E0C9D18F7C92C009C358E /* ASIDataCompressor.m in Sources */,
 				08534BA418F69AEB0014D4C3 /* XMLReader.m in Sources */,
+				30DAD1BC195730DD00934E4B /* NSData+AsyncCacher.m in Sources */,
 				0803A6E2190117B0000623AA /* YLImageView.m in Sources */,
 				08AC0289192EF5E3004BA73E /* NSDate+Exts.m in Sources */,
 				081E0CB018F7CCF0009C358E /* Reachability.m in Sources */,

@@ -47,4 +47,8 @@
  * @throw NSInvalidArgumentException If any value or key does not respond to urlEncoded.
  */
 - (NSString*)stringByAddingURLEncodedQueryDictionary:(NSDictionary*)query;
+
+- (NSNumber*)stringToNSNumber;
+- (BOOL)isEmpty;
+- (BOOL)stringContainsSubString:(NSString *)subString;
 @end

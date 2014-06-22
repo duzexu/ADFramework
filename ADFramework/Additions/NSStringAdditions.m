@@ -104,4 +104,28 @@
     
     return [self stringByAddingQueryDictionary:encodedQuery];
 }
+
+- (BOOL)stringContainsSubString:(NSString *)subString {
+    NSRange aRange = [self rangeOfString:subString];
+    if (aRange.location == NSNotFound) {
+        return NO;
+    }
+    
+    return YES;
+}
+
+- (NSNumber*)stringToNSNumber {
+	NSNumberFormatter* tmpFormatter = [[NSNumberFormatter alloc] init];
+	[tmpFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+	NSNumber* theNumber = [tmpFormatter numberFromString:self];
+    [tmpFormatter release];
+	return theNumber;
+}
+
+- (BOOL)isEmpty {
+    if ([self length] <= 0 || self == (id)[NSNull null] || self == nil) {
+        return YES;
+    }
+    return NO;
+}
 @end
