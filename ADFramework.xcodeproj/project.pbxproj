@@ -98,6 +98,8 @@
 		08AC028B192EF5E3004BA73E /* NSObject+AutoDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */; };
 		08AC028C192EF5E3004BA73E /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AC0286192EF5E3004BA73E /* UIView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08AC028D192EF5E3004BA73E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0287192EF5E3004BA73E /* UIView+Utils.m */; };
+		30DAD1741956D11F00934E4B /* LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1721956D11F00934E4B /* LimitLength.m */; };
+		30DAD1751956D11F00934E4B /* LimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1731956D11F00934E4B /* LimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,6 +197,8 @@
 		08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoDescription.m"; sourceTree = "<group>"; };
 		08AC0286192EF5E3004BA73E /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		08AC0287192EF5E3004BA73E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		30DAD1721956D11F00934E4B /* LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitLength.m; sourceTree = "<group>"; };
+		30DAD1731956D11F00934E4B /* LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitLength.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +454,8 @@
 				0802E8011941A272007F7FA9 /* NSArrayAdditions.m */,
 				0802E8041941B056007F7FA9 /* NSStringAdditions.h */,
 				0802E8051941B056007F7FA9 /* NSStringAdditions.m */,
+				30DAD1731956D11F00934E4B /* LimitLength.h */,
+				30DAD1721956D11F00934E4B /* LimitLength.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -505,6 +511,7 @@
 				0802E8061941B056007F7FA9 /* NSStringAdditions.h in Headers */,
 				08534B9F18F69A540014D4C3 /* MSKeyboardScrollView.h in Headers */,
 				08AC027B192EF55D004BA73E /* MKBlockAdditions.h in Headers */,
+				30DAD1751956D11F00934E4B /* LimitLength.h in Headers */,
 				0803A6E1190117B0000623AA /* YLImageView.h in Headers */,
 				08534BA318F69AEB0014D4C3 /* XMLReader.h in Headers */,
 				08534B8A18F67ED30014D4C3 /* ADCorePreprocessorMacros.h in Headers */,
@@ -618,6 +625,7 @@
 				088E6BFE18FD35C900FD70D7 /* JSONHTTPClient.m in Sources */,
 				088E6BFC18FD35C900FD70D7 /* JSONAPI.m in Sources */,
 				088E6BF318FD35C900FD70D7 /* JSONModelArray.m in Sources */,
+				30DAD1741956D11F00934E4B /* LimitLength.m in Sources */,
 				081E0C9D18F7C92C009C358E /* ASIDataCompressor.m in Sources */,
 				08534BA418F69AEB0014D4C3 /* XMLReader.m in Sources */,
 				0803A6E2190117B0000623AA /* YLImageView.m in Sources */,

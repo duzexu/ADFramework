@@ -101,4 +101,22 @@
 #import <ADFramework/UIAlertView+MKBlockAdditions.h>
 #import <ADFramework/UIActionSheet+MKBlockAdditions.h>
 #import <ADFramework/NSObject+MKBlockAdditions.h>
+/**
+ *  UITextField 和 UITextView 的实用方法
+ *  限制UITextField和UITextView的输入长度
+ */
+#import <ADFramework/LimitLength.h>
+/**
+ *  UIImage的实用方法
+ */
+#import <ADFramework/UIImage+Extensions.h>
+/**
+ *  NSArray的实用方法
+ */
+#import <ADFramework/NSArrayAdditions.h>
+/**
+ *  NSString的实用方法
+ */
+#import <ADFramework/NSStringAdditions.h>
+
 
