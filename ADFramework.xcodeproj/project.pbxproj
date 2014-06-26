@@ -101,7 +101,7 @@
 		30DAD1741956D11F00934E4B /* LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1721956D11F00934E4B /* LimitLength.m */; };
 		30DAD1751956D11F00934E4B /* LimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1731956D11F00934E4B /* LimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30DAD1BC195730DD00934E4B /* NSData+AsyncCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */; };
-		30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */; };
+		30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -499,7 +499,6 @@
 				08534BB218F69E6D0014D4C3 /* NSNotificationCenter+SFObservers.h in Headers */,
 				08534BB618F69E6D0014D4C3 /* NSObject+SFExecuteOnDealloc.h in Headers */,
 				08534BB418F69E6D0014D4C3 /* NSObject+SFObservers.h in Headers */,
-				30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */,
 				081E0CA618F7C92C009C358E /* ASIHTTPRequestConfig.h in Headers */,
 				081E0CA018F7C92C009C358E /* ASIDownloadCache.h in Headers */,
 				08AC028A192EF5E3004BA73E /* NSObject+AutoDescription.h in Headers */,
@@ -518,6 +517,7 @@
 				0802E8061941B056007F7FA9 /* NSStringAdditions.h in Headers */,
 				08534B9F18F69A540014D4C3 /* MSKeyboardScrollView.h in Headers */,
 				08AC027B192EF55D004BA73E /* MKBlockAdditions.h in Headers */,
+				30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */,
 				30DAD1751956D11F00934E4B /* LimitLength.h in Headers */,
 				0803A6E1190117B0000623AA /* YLImageView.h in Headers */,
 				08534BA318F69AEB0014D4C3 /* XMLReader.h in Headers */,

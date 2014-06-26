@@ -51,4 +51,14 @@ CGFloat RadiansToDegrees(CGFloat radians);
 - (UIImage *)imageRotatedByRadians:(CGFloat)radians;
 - (UIImage *)imageRotatedByDegrees:(CGFloat)degrees;
 
+/**
+ *  改变图片颜色
+ */
+- (UIImage *)imageTintedWithColor:(UIColor *)color;
+- (UIImage *)imageTintedWithColor:(UIColor *)color fraction:(CGFloat)fraction;
+
+/**
+ *  保存到相册
+ */
+-(BOOL)saveToPhotosAlbum;
 @end

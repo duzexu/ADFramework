@@ -38,7 +38,6 @@
  *  NSError *err = nil;
  */
 #import <ADFramework/XMLReader.h>
-#import <ADFramework/GXMLNode.h>
 /**
  *  给所有类添加NSCodeing支持
  */

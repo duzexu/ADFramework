@@ -32,7 +32,7 @@
         mainQueue.maxConcurrentOperationCount = 1;
         parallelQueue = [[NSOperationQueue alloc] init];
         parallelQueue.maxConcurrentOperationCount = 64;
-        blocksDict = [NSMutableDictionary dictionary];
+        blocksDict = [[NSMutableDictionary alloc]init];
         
         NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4*1024*1024 diskCapacity:20*1024*1024 diskPath:nil];
         [NSURLCache setSharedURLCache:URLCache];
