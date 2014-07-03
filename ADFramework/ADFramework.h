@@ -9,6 +9,7 @@
  使用方法：
     1.添加libz动态链接库
     2.把bundle文件拖入工程，不选择copy
+    3.加入Quarz Core
     
 ****************************************************************/
 //#import <Foundation/Foundation.h>
@@ -76,16 +77,26 @@
  *  自动解析模型类别和Json输入结构
  */
 #import <ADFramework/JSONModelLib.h>
-
+/**
+ *  文件管理
+ */
+#import <ADFramework/FCFileManager.h>
 /********************* 常用Category ***********************/
 /**
  *  UIView常用方法
  */
 #import <ADFramework/UIView+Utils.h>
+#import <ADFramework/UIView+Toast.h>
+#import <ADFramework/UIView+EasingFunctions.h>//给View添加弹性效果
 /**
  *  更详细的类描述
  */
 #import <ADFramework/NSObject+AutoDescription.h>
+/**
+ *  给类添加属性
+ *  Just simply add a property in a @interface and use @dynamic in an @implementation.
+ */
+#import <ADFramework/NSObject+DProperty.h>
 /**
  *  计算Label的高度
  */
@@ -129,5 +140,14 @@
  *    }];
  */
 #import <ADFramework/NSData+AsyncCacher.h>
+/**
+ *  自定义的present modal controller
+ */
+#import <ADFramework/UIViewController+MaryPopin.h>
+/**
+ *  NSTimer的实用方法
+ */
+#import <ADFramework/NSTimer+Extension.h>
+
 
 

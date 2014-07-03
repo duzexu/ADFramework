@@ -10,9 +10,6 @@
 
 @interface NSString (Additions)
 
-
-- (NSString *)stringValue;
-
 /**
  *Parses a URLString and a baseURL, return absolute URL.
  */
@@ -50,5 +47,34 @@
 
 - (NSNumber*)stringToNSNumber;
 - (BOOL)isEmpty;
-- (BOOL)stringContainsSubString:(NSString *)subString;
+
+#pragma mark - Contains
+/**
+ A shorthand method that uses NSPredicate to determine if an NSString contains another NSString. This uses a case-insensitive comparison.
+ @param searchString    - NSString to check against self
+ @returns BOOL
+ */
+- (BOOL)contains:(NSString *)searchString;
+
+/**
+ A shorthand method that uses NSPredicate to determine if an NSString contains any NSString objects inside of an array. This uses a case-insensitive comparison.
+ @param searchArray    - NSArray of NSStrings
+ @returns BOOL
+ */
+- (BOOL)containsAnyInArray:(NSArray *)searchArray;
+
+#pragma mark - Email Validation
+/**
+ Uses regex to determine whether the string is a valid email address or not.
+ @returns BOOL
+ */
+- (BOOL)isValidEmail;
+
+#pragma mark - REGEX
+/**
+ Takes in a regular expression string to determine whether self evaluates with it or not.
+ @param regexString - NSString of the regular expression
+ @returns BOOL
+ */
+- (BOOL)matchesRegex:(NSString *)regexString;
 @end
