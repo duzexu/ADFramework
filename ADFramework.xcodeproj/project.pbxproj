@@ -39,6 +39,8 @@
 		081E0CAC18F7C92C009C358E /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 081E0C9818F7C92C009C358E /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		081E0CAF18F7CCF0009C358E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 081E0CAD18F7CCF0009C358E /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		081E0CB018F7CCF0009C358E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 081E0CAE18F7CCF0009C358E /* Reachability.m */; };
+		08295BA21966A92F00A84280 /* UIViewController+ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08295BA01966A92F00A84280 /* UIViewController+ChildViewController.m */; };
+		08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08295BA11966A92F00A84280 /* UIViewController+ChildViewController.h */; };
 		08534B7E18F674030014D4C3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08534B7B18F674030014D4C3 /* SVProgressHUD.bundle */; };
 		08534B7F18F674030014D4C3 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 08534B7C18F674030014D4C3 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08534B8018F674030014D4C3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08534B7D18F674030014D4C3 /* SVProgressHUD.m */; };
@@ -152,6 +154,8 @@
 		081E0C9818F7C92C009C358E /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		081E0CAD18F7CCF0009C358E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		081E0CAE18F7CCF0009C358E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		08295BA01966A92F00A84280 /* UIViewController+ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChildViewController.m"; sourceTree = "<group>"; };
+		08295BA11966A92F00A84280 /* UIViewController+ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChildViewController.h"; sourceTree = "<group>"; };
 		08534B7B18F674030014D4C3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		08534B7C18F674030014D4C3 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		08534B7D18F674030014D4C3 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
@@ -526,6 +530,8 @@
 				30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */,
 				089950ED195D6CEF00DE5B33 /* NSTimer+Extension.h */,
 				089950EC195D6CEF00DE5B33 /* NSTimer+Extension.m */,
+				08295BA11966A92F00A84280 /* UIViewController+ChildViewController.h */,
+				08295BA01966A92F00A84280 /* UIViewController+ChildViewController.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -574,6 +580,7 @@
 				08AC0288192EF5E3004BA73E /* NSDate+Exts.h in Headers */,
 				08CEEF5C1964079B0028EC7B /* FCFileManager.h in Headers */,
 				081E0CA818F7C92C009C358E /* ASIInputStream.h in Headers */,
+				08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */,
 				0803A6DF190117B0000623AA /* YLGIFImage.h in Headers */,
 				08AC027C192EF55D004BA73E /* NSObject+MKBlockAdditions.h in Headers */,
 				081E0C9E18F7C92C009C358E /* ASIDataDecompressor.h in Headers */,
@@ -723,6 +730,7 @@
 				08AC027D192EF55D004BA73E /* NSObject+MKBlockAdditions.m in Sources */,
 				089950F2195D717200DE5B33 /* UIView+EasingFunctions.m in Sources */,
 				088E6C0418FD35C900FD70D7 /* JSONValueTransformer.m in Sources */,
+				08295BA21966A92F00A84280 /* UIViewController+ChildViewController.m in Sources */,
 				08534B8018F674030014D4C3 /* SVProgressHUD.m in Sources */,
 				08CEEF5B1964079B0028EC7B /* FCFileManager.m in Sources */,
 				088E6BF118FD35C900FD70D7 /* JSONModel.m in Sources */,

@@ -148,6 +148,9 @@
  *  NSTimer的实用方法
  */
 #import <ADFramework/NSTimer+Extension.h>
-
+/**
+ *  给UIViewController添加子控制器
+ */
+#import <ADFramework/UIViewController+ChildViewController.h>
 
 
