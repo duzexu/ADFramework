@@ -125,3 +125,55 @@ static inline id _release(id obj)
 #endif
     return obj;
 }
+
+// 使用unix c函数来实现获取文件大小，速度超快
+float getFileSizeAtPath(NSString *filePath) {
+    if (filePath == nil || [filePath length] == 0) {
+        return 0;
+    }
+    struct stat st;
+    if (lstat([filePath cStringUsingEncoding:NSUTF8StringEncoding], &st) == 0) {
+        return st.st_size;
+    }
+    return 0;
+}
+
+//获取文件夹的大小
+float getFolderSizeAtPath(const char *folderPath) {
+      float folderSize = 0;
+      DIR *dir = opendir(folderPath);
+      if (dir == NULL)
+        return 0;
+      struct dirent *child;
+      while ((child = readdir(dir)) != NULL) {
+        if (child->d_type == DT_DIR &&
+            ((child->d_name[0] == '.' && child->d_name[1] == 0) || // 忽略目录 .
+             (child->d_name[0] == '.' && child->d_name[1] == '.' &&
+              child->d_name[2] == 0) // 忽略目录 ..
+             ))
+          continue;
+
+        int folderPathLength = strlen(folderPath);
+        char childPath[1024]; // 子文件的路径地址
+        stpcpy(childPath, folderPath);
+        if (folderPath[folderPathLength - 1] != '/') {
+          childPath[folderPathLength] = '/';
+          folderPathLength++;
+        }
+        stpcpy(childPath + folderPathLength, child->d_name);
+        childPath[folderPathLength + child->d_namlen] = 0;
+        if (child->d_type == DT_DIR) {                  // directory
+          folderSize += getFolderSizeAtPath(childPath); // 递归调用子目录
+          // 把目录本身所占的空间也加上
+          struct stat st;
+          if (lstat(childPath, &st) == 0)
+            folderSize += st.st_size;
+        } else if (child->d_type == DT_REG ||
+                   child->d_type == DT_LNK) { // file or link
+          struct stat st;
+          if (lstat(childPath, &st) == 0)
+            folderSize += st.st_size;
+        }
+      }
+      return folderSize;
+}

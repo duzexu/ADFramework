@@ -40,7 +40,7 @@
 		081E0CAF18F7CCF0009C358E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 081E0CAD18F7CCF0009C358E /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		081E0CB018F7CCF0009C358E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 081E0CAE18F7CCF0009C358E /* Reachability.m */; };
 		08295BA21966A92F00A84280 /* UIViewController+ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08295BA01966A92F00A84280 /* UIViewController+ChildViewController.m */; };
-		08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08295BA11966A92F00A84280 /* UIViewController+ChildViewController.h */; };
+		08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08295BA11966A92F00A84280 /* UIViewController+ChildViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08534B7E18F674030014D4C3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08534B7B18F674030014D4C3 /* SVProgressHUD.bundle */; };
 		08534B7F18F674030014D4C3 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 08534B7C18F674030014D4C3 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08534B8018F674030014D4C3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08534B7D18F674030014D4C3 /* SVProgressHUD.m */; };
@@ -113,6 +113,8 @@
 		08AC028B192EF5E3004BA73E /* NSObject+AutoDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */; };
 		08AC028C192EF5E3004BA73E /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AC0286192EF5E3004BA73E /* UIView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08AC028D192EF5E3004BA73E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0287192EF5E3004BA73E /* UIView+Utils.m */; };
+		08C837E019ADDEEE00B6703E /* NSFileManager+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C837DE19ADDEED00B6703E /* NSFileManager+Utils.h */; };
+		08C837E119ADDEEE00B6703E /* NSFileManager+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */; };
 		08CEEF5B1964079B0028EC7B /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEEF591964079B0028EC7B /* FCFileManager.m */; };
 		08CEEF5C1964079B0028EC7B /* FCFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CEEF5A1964079B0028EC7B /* FCFileManager.h */; };
 		30DAD1741956D11F00934E4B /* LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1721956D11F00934E4B /* LimitLength.m */; };
@@ -232,6 +234,8 @@
 		08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoDescription.m"; sourceTree = "<group>"; };
 		08AC0286192EF5E3004BA73E /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		08AC0287192EF5E3004BA73E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		08C837DE19ADDEED00B6703E /* NSFileManager+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Utils.h"; sourceTree = "<group>"; };
+		08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Utils.m"; sourceTree = "<group>"; };
 		08CEEF591964079B0028EC7B /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
 		08CEEF5A1964079B0028EC7B /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
 		30DAD1721956D11F00934E4B /* LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitLength.m; sourceTree = "<group>"; };
@@ -503,6 +507,8 @@
 				089950DE195D667100DE5B33 /* MaryPopin */,
 				081801721945B78500A30BFE /* UIImage+Extensions.h */,
 				081801731945B78500A30BFE /* UIImage+Extensions.m */,
+				08C837DE19ADDEED00B6703E /* NSFileManager+Utils.h */,
+				08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */,
 				08AC0282192EF5E3004BA73E /* NSDate+Exts.h */,
 				08AC0283192EF5E3004BA73E /* NSDate+Exts.m */,
 				08AC0284192EF5E3004BA73E /* NSObject+AutoDescription.h */,
@@ -546,6 +552,7 @@
 				088E6BFF18FD35C900FD70D7 /* JSONModel+networking.h in Headers */,
 				088E6BFB18FD35C900FD70D7 /* JSONAPI.h in Headers */,
 				088E6BF218FD35C900FD70D7 /* JSONModelArray.h in Headers */,
+				08C837E019ADDEEE00B6703E /* NSFileManager+Utils.h in Headers */,
 				088E6BF618FD35C900FD70D7 /* JSONModelError.h in Headers */,
 				088E6C0118FD35C900FD70D7 /* JSONKeyMapper.h in Headers */,
 				088E6BF018FD35C900FD70D7 /* JSONModel.h in Headers */,
@@ -580,7 +587,6 @@
 				08AC0288192EF5E3004BA73E /* NSDate+Exts.h in Headers */,
 				08CEEF5C1964079B0028EC7B /* FCFileManager.h in Headers */,
 				081E0CA818F7C92C009C358E /* ASIInputStream.h in Headers */,
-				08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */,
 				0803A6DF190117B0000623AA /* YLGIFImage.h in Headers */,
 				08AC027C192EF55D004BA73E /* NSObject+MKBlockAdditions.h in Headers */,
 				081E0C9E18F7C92C009C358E /* ASIDataDecompressor.h in Headers */,
@@ -594,6 +600,7 @@
 				089950F3195D717200DE5B33 /* UIView+EasingFunctions.h in Headers */,
 				089950EA195D6A3100DE5B33 /* NSObject+DProperty.h in Headers */,
 				089950D2195D2A2300DE5B33 /* UIView+Toast.h in Headers */,
+				08295BA31966A92F00A84280 /* UIViewController+ChildViewController.h in Headers */,
 				089950EF195D6CEF00DE5B33 /* NSTimer+Extension.h in Headers */,
 				30DAD1751956D11F00934E4B /* LimitLength.h in Headers */,
 				089950E1195D667100DE5B33 /* UIViewController+MaryPopin.h in Headers */,
@@ -723,6 +730,7 @@
 				081E0CA918F7C92C009C358E /* ASIInputStream.m in Sources */,
 				089950E9195D6A3100DE5B33 /* DPPPropertyAttribute.m in Sources */,
 				089950E2195D667200DE5B33 /* UIViewController+MaryPopin.m in Sources */,
+				08C837E119ADDEEE00B6703E /* NSFileManager+Utils.m in Sources */,
 				088E6BF518FD35C900FD70D7 /* JSONModelClassProperty.m in Sources */,
 				088E6BA618FD23A000FD70D7 /* CRToast.m in Sources */,
 				08AC028D192EF5E3004BA73E /* UIView+Utils.m in Sources */,

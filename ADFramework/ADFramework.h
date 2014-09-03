@@ -152,5 +152,9 @@
  *  给UIViewController添加子控制器
  */
 #import <ADFramework/UIViewController+ChildViewController.h>
+/**
+ *  NSFileManager的实用方法
+ */
+#import <ADFramework/NSFileManager+Utils.h>
 
 
