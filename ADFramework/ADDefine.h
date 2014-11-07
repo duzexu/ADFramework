@@ -177,3 +177,62 @@ float getFolderSizeAtPath(const char *folderPath) {
       }
       return folderSize;
 }
+
+FOUNDATION_EXPORT CGRect SETViewFrame(CGRect rect4 ,CGRect rect5 ,CGRect rect6 ,CGRect rect6_ ){
+    
+    int height=(int) [UIScreen mainScreen].bounds.size.height;
+    
+    if(height==480){
+        
+        return rect4;
+        
+    }else if (height==568){
+        
+        
+        return rect5;
+        
+    }else if (height==667){
+        
+        return rect6;
+        
+    }else if (height==736){
+        
+        return rect6_;
+        
+    }
+    
+    
+    return rect4;
+    
+}
+
+FOUNDATION_EXPORT NSString * SETImage(NSString * image){
+    
+    
+    int height=(int) [UIScreen mainScreen].bounds.size.height;
+    
+    if(height==480){
+        
+        return image;
+        
+    }else if (height==568){
+        
+        
+        return [NSString stringWithFormat:@"%@5",image];
+        
+    }else if (height==667){
+        
+        return [NSString stringWithFormat:@"%@6",image];
+        
+        
+    }else if (height==736){
+        
+        return [NSString stringWithFormat:@"%@6_",image];
+        
+    }
+    
+    
+    return [NSString stringWithFormat:@"%@",image];
+    
+    
+}
