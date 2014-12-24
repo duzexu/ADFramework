@@ -113,6 +113,8 @@
 		08AC028B192EF5E3004BA73E /* NSObject+AutoDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */; };
 		08AC028C192EF5E3004BA73E /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AC0286192EF5E3004BA73E /* UIView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08AC028D192EF5E3004BA73E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0287192EF5E3004BA73E /* UIView+Utils.m */; };
+		08AD08241A4A6965002E8FCC /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD08221A4A6965002E8FCC /* metamacros.h */; };
+		08AD08251A4A6965002E8FCC /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD08231A4A6965002E8FCC /* EXTKeyPathCoding.h */; };
 		08C837E019ADDEEE00B6703E /* NSFileManager+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C837DE19ADDEED00B6703E /* NSFileManager+Utils.h */; };
 		08C837E119ADDEEE00B6703E /* NSFileManager+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */; };
 		08CEEF5B1964079B0028EC7B /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEEF591964079B0028EC7B /* FCFileManager.m */; };
@@ -234,6 +236,8 @@
 		08AC0285192EF5E3004BA73E /* NSObject+AutoDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoDescription.m"; sourceTree = "<group>"; };
 		08AC0286192EF5E3004BA73E /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		08AC0287192EF5E3004BA73E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		08AD08221A4A6965002E8FCC /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		08AD08231A4A6965002E8FCC /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		08C837DE19ADDEED00B6703E /* NSFileManager+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Utils.h"; sourceTree = "<group>"; };
 		08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Utils.m"; sourceTree = "<group>"; };
 		08CEEF591964079B0028EC7B /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
@@ -457,6 +461,8 @@
 				08534BA218F69AEB0014D4C3 /* XMLReader.m */,
 				08CEEF5A1964079B0028EC7B /* FCFileManager.h */,
 				08CEEF591964079B0028EC7B /* FCFileManager.m */,
+				08AD08221A4A6965002E8FCC /* metamacros.h */,
+				08AD08231A4A6965002E8FCC /* EXTKeyPathCoding.h */,
 				08AC0273192EF55D004BA73E /* Additions */,
 				0803A6DA190117B0000623AA /* YLGIFImage */,
 				088E6BD618FD35C900FD70D7 /* JSONModel */,
@@ -561,6 +567,7 @@
 				088E6BFD18FD35C900FD70D7 /* JSONHTTPClient.h in Headers */,
 				088E6BF418FD35C900FD70D7 /* JSONModelClassProperty.h in Headers */,
 				08534B8C18F682240014D4C3 /* ADDefine.h in Headers */,
+				08AD08241A4A6965002E8FCC /* metamacros.h in Headers */,
 				08534B7F18F674030014D4C3 /* SVProgressHUD.h in Headers */,
 				08534BB818F69E6D0014D4C3 /* SFObservers.h in Headers */,
 				089950E8195D6A3100DE5B33 /* DPPPropertyAttribute.h in Headers */,
@@ -571,6 +578,7 @@
 				081E0CA418F7C92C009C358E /* ASIHTTPRequest.h in Headers */,
 				088E6BFA18FD35C900FD70D7 /* JSONModelLib.h in Headers */,
 				081E0CAC18F7C92C009C358E /* ASIProgressDelegate.h in Headers */,
+				08AD08251A4A6965002E8FCC /* EXTKeyPathCoding.h in Headers */,
 				088E6BA518FD23A000FD70D7 /* CRToast.h in Headers */,
 				081E0CA718F7C92C009C358E /* ASIHTTPRequestDelegate.h in Headers */,
 				081E0C9B18F7C92C009C358E /* ASICacheDelegate.h in Headers */,
