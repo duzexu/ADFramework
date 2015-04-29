@@ -211,3 +211,12 @@
 - (void)crossfadeWithDuration:(NSTimeInterval)duration completion:(void (^)(void))completion;
 
 @end
+
+@interface UIView (MBIBnspectable)
+
+@property (assign,nonatomic) IBInspectable NSInteger cornerRadius;
+@property (assign,nonatomic) IBInspectable NSInteger borderWidth;
+@property (strong,nonatomic) IBInspectable UIColor *borderColor;
+@property (assign,nonatomic) IBInspectable BOOL onePx;
+
+@end
