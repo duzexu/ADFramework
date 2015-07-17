@@ -124,6 +124,8 @@
 		30DAD1751956D11F00934E4B /* LimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1731956D11F00934E4B /* LimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30DAD1BC195730DD00934E4B /* NSData+AsyncCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */; };
 		30DAD1BE195730E700934E4B /* NSData+AsyncCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D37C8421B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D37C8401B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.h */; };
+		6D37C8431B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D37C8411B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -248,6 +250,8 @@
 		30DAD1731956D11F00934E4B /* LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitLength.h; sourceTree = "<group>"; };
 		30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AsyncCacher.m"; sourceTree = "<group>"; };
 		30DAD1BD195730E700934E4B /* NSData+AsyncCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AsyncCacher.h"; sourceTree = "<group>"; };
+		6D37C8401B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6D37C8411B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -511,6 +515,7 @@
 		08AC0273192EF55D004BA73E /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				6D37C83F1B58EAFC007C8CE7 /* FDFullscreenPopGesture */,
 				089950E3195D6A3100DE5B33 /* DProperty */,
 				089950DE195D667100DE5B33 /* MaryPopin */,
 				081801721945B78500A30BFE /* UIImage+Extensions.h */,
@@ -551,6 +556,15 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
+		6D37C83F1B58EAFC007C8CE7 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6D37C8401B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6D37C8411B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -588,6 +602,7 @@
 				08534BB218F69E6D0014D4C3 /* NSNotificationCenter+SFObservers.h in Headers */,
 				08534BB618F69E6D0014D4C3 /* NSObject+SFExecuteOnDealloc.h in Headers */,
 				08534BB418F69E6D0014D4C3 /* NSObject+SFObservers.h in Headers */,
+				6D37C8421B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
 				081E0CA618F7C92C009C358E /* ASIHTTPRequestConfig.h in Headers */,
 				081E0CA018F7C92C009C358E /* ASIDownloadCache.h in Headers */,
 				08AC028A192EF5E3004BA73E /* NSObject+AutoDescription.h in Headers */,
@@ -741,6 +756,7 @@
 				081E0CB018F7CCF0009C358E /* Reachability.m in Sources */,
 				081E0CA918F7C92C009C358E /* ASIInputStream.m in Sources */,
 				089950E9195D6A3100DE5B33 /* DPPPropertyAttribute.m in Sources */,
+				6D37C8431B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				089950E2195D667200DE5B33 /* UIViewController+MaryPopin.m in Sources */,
 				08C837E119ADDEEE00B6703E /* NSFileManager+Utils.m in Sources */,
 				088E6BF518FD35C900FD70D7 /* JSONModelClassProperty.m in Sources */,
