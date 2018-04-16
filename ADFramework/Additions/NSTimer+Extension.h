@@ -10,6 +10,9 @@
 
 @interface NSTimer (Extension)
 
+/**
+ *  破除self对target的强制引用，防止循环引用
+ */
 + (id)scheduledTimerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 + (id)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 

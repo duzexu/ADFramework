@@ -120,6 +120,8 @@
 		08C837E119ADDEEE00B6703E /* NSFileManager+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */; };
 		08CEEF5B1964079B0028EC7B /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEEF591964079B0028EC7B /* FCFileManager.m */; };
 		08CEEF5C1964079B0028EC7B /* FCFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CEEF5A1964079B0028EC7B /* FCFileManager.h */; };
+		3000CFF31C25213200B65828 /* JX_GCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3000CFF11C25213200B65828 /* JX_GCDTimerManager.h */; };
+		3000CFF41C25213200B65828 /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000CFF21C25213200B65828 /* JX_GCDTimerManager.m */; };
 		30DAD1741956D11F00934E4B /* LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1721956D11F00934E4B /* LimitLength.m */; };
 		30DAD1751956D11F00934E4B /* LimitLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DAD1731956D11F00934E4B /* LimitLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30DAD1BC195730DD00934E4B /* NSData+AsyncCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */; };
@@ -246,6 +248,8 @@
 		08C837DF19ADDEEE00B6703E /* NSFileManager+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Utils.m"; sourceTree = "<group>"; };
 		08CEEF591964079B0028EC7B /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
 		08CEEF5A1964079B0028EC7B /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		3000CFF11C25213200B65828 /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		3000CFF21C25213200B65828 /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
 		30DAD1721956D11F00934E4B /* LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitLength.m; sourceTree = "<group>"; };
 		30DAD1731956D11F00934E4B /* LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitLength.h; sourceTree = "<group>"; };
 		30DAD1BB195730DD00934E4B /* NSData+AsyncCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AsyncCacher.m"; sourceTree = "<group>"; };
@@ -469,6 +473,7 @@
 				08CEEF591964079B0028EC7B /* FCFileManager.m */,
 				08AD08221A4A6965002E8FCC /* metamacros.h */,
 				08AD08231A4A6965002E8FCC /* EXTKeyPathCoding.h */,
+				3000CFF01C25213200B65828 /* JX_GCDTimer */,
 				08AC0273192EF55D004BA73E /* Additions */,
 				0803A6DA190117B0000623AA /* YLGIFImage */,
 				088E6BD618FD35C900FD70D7 /* JSONModel */,
@@ -556,6 +561,15 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		3000CFF01C25213200B65828 /* JX_GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3000CFF11C25213200B65828 /* JX_GCDTimerManager.h */,
+				3000CFF21C25213200B65828 /* JX_GCDTimerManager.m */,
+			);
+			path = JX_GCDTimer;
+=======
 		6D37C83F1B58EAFC007C8CE7 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -563,6 +577,7 @@
 				6D37C8411B58EAFC007C8CE7 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = FDFullscreenPopGesture;
+>>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,6 +606,7 @@
 				08534BBC18F69E880014D4C3 /* UILabel+ContentSize.h in Headers */,
 				08534BC118F69EAE0014D4C3 /* AutoCoding.h in Headers */,
 				081E0CAA18F7C92C009C358E /* ASINetworkQueue.h in Headers */,
+				3000CFF31C25213200B65828 /* JX_GCDTimerManager.h in Headers */,
 				081E0CA218F7C92C009C358E /* ASIFormDataRequest.h in Headers */,
 				081E0CA418F7C92C009C358E /* ASIHTTPRequest.h in Headers */,
 				088E6BFA18FD35C900FD70D7 /* JSONModelLib.h in Headers */,
@@ -666,6 +682,7 @@
 		08932F2E18F536C3002F21B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Duzexu;
 			};
@@ -736,6 +753,7 @@
 				08AC028B192EF5E3004BA73E /* NSObject+AutoDescription.m in Sources */,
 				089950EE195D6CEF00DE5B33 /* NSTimer+Extension.m in Sources */,
 				08534BB318F69E6D0014D4C3 /* NSNotificationCenter+SFObservers.m in Sources */,
+				3000CFF41C25213200B65828 /* JX_GCDTimerManager.m in Sources */,
 				081801751945B78500A30BFE /* UIImage+Extensions.m in Sources */,
 				081E0CA518F7C92C009C358E /* ASIHTTPRequest.m in Sources */,
 				089950D3195D2A2300DE5B33 /* UIView+Toast.m in Sources */,
